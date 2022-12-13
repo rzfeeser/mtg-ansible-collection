@@ -17,7 +17,7 @@ Ansible is a framework that runs Python scripts primarily used for for automatin
 
 This repository has recently been converted to a collection, `rzfeeser.mtg`. To install, use:
 
-    `ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection`
+    ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection
 
 
 ### Goals
@@ -37,12 +37,12 @@ This repository has recently been converted to a collection, `rzfeeser.mtg`. To 
     - Windows - Ansible will only run on Linux. From the Windows Store install **Ubuntu 22.04** as part of the **WSL 2**. Then follow the steps for Debian / Ubuntu.
 
 2. Install Ansible
-    `python3 -m pip install ansible`
+    python3 -m pip install ansible
 
 #### Setup
 
 1. Install the collection:
-    `ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection`
+    ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection
     
 2. Try out one of the playbooks located in `playbooks/`
-    `ansible-playbook playbook/playbook<example>.yml`
+    ansible-playbook playbook/playbook<example>.yml
