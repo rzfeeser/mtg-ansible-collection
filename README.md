@@ -43,8 +43,8 @@ This repository has recently been converted to a collection, `rzfeeser.mtg`. To 
 
 1. Install the collection:
 
-    ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection
+    `ansible-galaxy collection install git+https://github.com/rzfeeser/mtg-ansible-collection`
     
 2. Try out one of the playbooks located in `playbooks/`
 
-    ansible-playbook playbook/playbook<example>.yml
+    `ansible-playbook playbook/playbook<example>.yml`
