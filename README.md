@@ -1,6 +1,10 @@
-# Magic the Gathering - Ansible Collection
+# Magic The Gathering - Ansible Collection
 
-Welcome! This is an Ansible collection developed for [https://magicthegathering.io](https://magicthegathering.io).
+Welcome! This is an Ansible collection developed for [https://magicthegathering.io](https://magicthegathering.io)
+
+Ansible is a framework that runs Python scripts primarily used for for automating configuration (Configuration as Code). So, we'll be the first to admit, it's a little silly to have an Ansible collection that interacts with a service that returns info about Magic the Gathering. However, it's a wonderfully maintained API, open, has support of a massive community, and ultimately a fun way to learn. 
+
+*Note: We are not curators of the MagicTheGathering.io API service. For questions general use questions about the API, see the documentation page at* [docs.magicthegathering.io](https://docs.magicthegathering.io)
 
 ### Presteps
 
