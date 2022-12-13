@@ -8,7 +8,7 @@ Email: rzfeeser@users.noreply.github.com
 
 Welcome! This is an Ansible collection developed for [https://magicthegathering.io](https://magicthegathering.io)
 
-Ansible is a framework that runs Python scripts primarily used for for automating configuration (Configuration as Code). So, we'll be the first to admit, it's a little silly to have an Ansible collection that interacts with a service that returns info about Magic the Gathering. However, it's a wonderfully maintained API, open, has support of a massive community, and ultimately a fun way to learn. 
+Ansible is a framework that runs Python scripts primarily used for for automating configuration, or Configuration as Code (Caac). So, we'll be the first to admit, it *is* a little silly to have an Ansible collection that interacts with a service to return Magic the Gathering facts. However, it is a wonderfully maintained API, open, has support of a massive community, and ultimately a fun way to learn about coding.
 
 *Note: We are not curators of the MagicTheGathering.io API service. For questions general use questions about the API, see the documentation page at* [docs.magicthegathering.io](https://docs.magicthegathering.io)
 
