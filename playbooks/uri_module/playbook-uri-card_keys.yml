@@ -1,0 +1,26 @@
+--- 
+- name: Access mtg cards api
+  hosts: localhost
+  gather_facts: no
+  connection: ssh
+  become: yes
+
+  tasks:
+    - name: Send get request to mtg cards api
+      uri:
+        method: GET
+        url: https://api.magicthegathering.io/v1/cards
+        status_code: 200
+        return_content: true
+      register: mtg_cards
+
+    - name: Show that the content was still retrieved
+      debug:
+             var: mtg_cards.json.cards
+      
+    - name: Loop through the data returned
+      debug:
+             msg: "{{ item.keys() }}"
+      loop: "{{ mtg_cards.json.cards }}"
+      loop_control:
+        label: "{{ item.keys()  }}"

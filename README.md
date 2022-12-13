@@ -1,2 +1,3 @@
-# mtg-ansible-collection
-Magic: The Gathering Ansible - Collection
+# Ansible Collection - rzfeeser.mtg
+
+Documentation for the collection.
