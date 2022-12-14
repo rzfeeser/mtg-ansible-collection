@@ -6,12 +6,11 @@
   hosts: localhost
   gather_facts: no
   connection: local
-  
-# the roles section runs before tasks
-#  roles:
-#  - mtg-head100
+ 
+  collections:
+  - rzfeeser.mtg
 
   tasks:
   - name: Another way to call the role mtg-head100   # providing metadata for our task
-    import_role:
-      name: rzfeeser.mtg.mtg-head100   # this is the name of the role to be imported
+    ansible.builtin.import_role:
+      name: mtg-head100   # this is the name of the role to be imported
