@@ -36,8 +36,7 @@ This repository has recently been converted to a collection, `rzfeeser.mtg`. To 
     - Debian / Ubuntu - `sudo apt install python3-pip`
     - Windows - Ansible will only run on Linux. From the Windows Store install **Ubuntu 22.04** as part of the **WSL 2**. Then follow the steps for Debian / Ubuntu.
 
-2. Install Ansible
-    python3 -m pip install ansible
+2. Install Ansible with the Python package installer, pip: `python3 -m pip install ansible`
 
 #### Setup
 
