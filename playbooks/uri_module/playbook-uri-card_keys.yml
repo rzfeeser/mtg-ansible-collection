@@ -2,7 +2,8 @@
 # Alta3 Research
 # Author: Paul Lack
 # Demo using ansible.builtin.uri module to demo interaction with api.magicthegathering.io
-#   using only the Ansible standard library
+#   using only the Ansible standard library. Specifically, this playbook shows keys available from
+#   api.magicthegathering.io/v1/cards
 - name: Access api.magicthegathering.io/v1/cards
   hosts: localhost
   gather_facts: no
