@@ -2,9 +2,9 @@
 # Alta3 Research
 # Author: Ben Hutchenson
 # Demo using ansible.builtin.uri module to demo interaction with api.magicthegathering.io
-#   using only the Ansible standard library. Specifically, exploring the endpoints
-#   api.magicthegathering.io/v1/sets
-#   api.magicthegathering.io/v1/cards
+#   using only the Ansible standard library. Specifically, exploring the endpoints:
+#   - api.magicthegathering.io/v1/sets
+#   - api.magicthegathering.io/v1/cards
 
 - name: Playbook - Magic the Gathering
   hosts: localhost
