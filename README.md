@@ -2,7 +2,7 @@
 
 Author: Russell Zachary Feeser  
 GitHub: @RZFeeser  
-Email: rzfeeser@users.noreply.github.com 
+Email: rzfeeser@users.noreply.github.com  
 
 ### Overview
 
