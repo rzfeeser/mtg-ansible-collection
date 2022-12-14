@@ -47,4 +47,4 @@ This repository has recently been converted to a collection, `rzfeeser.mtg`. To 
     
 2. Try out one of the playbooks located in `playbooks/`
 
-    `ansible-playbook playbook/playbook<example>.yml`
+    `ansible-playbook playbooks/uri_module/playbook-uri-sets_and_cards.yml`
