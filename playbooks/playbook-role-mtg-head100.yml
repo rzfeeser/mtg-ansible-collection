@@ -7,9 +7,6 @@
   gather_facts: no
   connection: local
   
-  collections:
-  - rzfeeser.mtg 
-
 # the roles section runs before tasks
 #  roles:
 #  - mtg-head100
