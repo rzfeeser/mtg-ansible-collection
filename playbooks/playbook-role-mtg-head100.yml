@@ -6,12 +6,15 @@
   hosts: localhost
   gather_facts: no
   connection: local
+  
+  collections:
+  - rzfeeser.mtg 
 
 # the roles section runs before tasks
 #  roles:
-#    - mtg-head100
+#  - mtg-head100
 
   tasks:
   - name: Another way to call the role mtg-head100   # providing metadata for our task
     import_role:
-      name: mtg-head100   # this is the name of the role to be imported
+      name: rzfeeser.mtg.mtg-head100   # this is the name of the role to be imported
