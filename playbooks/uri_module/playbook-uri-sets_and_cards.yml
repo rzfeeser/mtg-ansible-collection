@@ -1,6 +1,6 @@
 ---
 # Alta3 Research
-# Author: Ben Hutchenson
+# Author: Joe Hutcheson
 # Demo using ansible.builtin.uri module to demo interaction with api.magicthegathering.io
 #   using only the Ansible standard library. Specifically, exploring the endpoints:
 #   - api.magicthegathering.io/v1/sets
